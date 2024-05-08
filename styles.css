@@ -83,6 +83,42 @@ footer {
     margin-top: 0;
 }
 
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    .logo img {
+        height: 40px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .banner {
+        padding: 50px 20px;
+    }
+
+    .banner h1 {
+        font-size: 28px;
+    }
+
+    .banner p {
+        font-size: 16px;
+    }
+
+    .btn {
+        padding: 8px 16px;
+    }
+
+    .servico {
+        padding: 10px;
+    }
+}
+
+
 .servico p {
     margin-bottom: 0;
 }
